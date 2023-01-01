@@ -40,14 +40,32 @@
 
     nav {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         height: 85px;
         width: 100%;
-
+        z-index: 9999;
+        align-items: center;
         .nav__logo {
-            width: 10%;
+            width: 20%;
             img {
                 height: 65px;
             }
+        }
+        .nav__menu-pages {
+            width: 40%;
+            ul {
+                display: flex;
+                justify-content: space-around;
+                flex-direction: row;
+                text-transform: uppercase;
+                li {
+
+                }
+            }
+        }
+
+        .nav__items {
+            width: 20%;
+            text-align: right;
         }
     }

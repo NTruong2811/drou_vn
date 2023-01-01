@@ -22,9 +22,10 @@
 
     <!-- End header -->
     <hr>
-    <nav>
-        <div class="nav__logo">
-            <img src="//cdn.shopify.com/s/files/1/1152/4590/files/logo_300x300.png?v=1671082437" alt="logo">
+    <div class="container">
+        <nav>
+            <div class="nav__logo">
+            <img src="../../../public/images/logo_300x300.png" alt="logo">
         </div>
         <div class="nav__menu-pages">
             <ul>
@@ -40,7 +41,8 @@
             <i class="fa-regular fa-heart" />
             <i class="fa-light fa-cart-shopping"></i>
         </div>
-    </nav>
+        </nav>
+    </div>
       <router-view></router-view>
       <!-- <footer>foot</footer> -->
 </template>
