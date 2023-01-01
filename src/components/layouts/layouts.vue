@@ -42,7 +42,7 @@
         </div>
     </nav>
       <router-view></router-view>
-      <footer>foot</footer>
+      <!-- <footer>foot</footer> -->
 </template>
 <script>
 import './layout.scss'
