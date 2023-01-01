@@ -1,0 +1,53 @@
+    header {
+        display: flex;
+        align-items: center;
+        height: 41px;
+        .header__left {
+            width: 20%;
+            margin-left: 30px;
+            ul {
+                display: flex;
+                li {
+                    margin: 0 10px;
+                }
+            }
+        }
+
+        .header__middle {
+            width: 60%;
+            text-align: center;
+        }
+
+        .header__right {
+            width: 20%;
+
+            ul {
+                display: flex;
+
+                li {
+                    margin: 0 10px;
+                }
+
+                &:nth-child(1) {
+                    margin-right: 10px;
+                }
+                ul {
+                    display: flex;
+                }
+            }
+        }
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        height: 85px;
+        width: 100%;
+
+        .nav__logo {
+            width: 10%;
+            img {
+                height: 65px;
+            }
+        }
+    }
