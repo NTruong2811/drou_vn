@@ -1,5 +1,5 @@
 <template>
-    <header>head</header>
+        <header>head</header>
     <nav>
         <ul>
             <li><router-link to="/">home</router-link></li>
@@ -7,7 +7,7 @@
         </ul>
     </nav>
       <router-view></router-view>
-      <footer>foot</footer>
+      <!-- <footer>foot</footer> -->
 </template>
 <script>
 export default {
