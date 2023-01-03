@@ -7,18 +7,20 @@
  
     
       <router-view></router-view>
-      <!-- <footer>foot</footer> -->
+      <footer-global />
 </template>
 <script>
 import headerGlobal from './header/header.vue'
 import navbar from './navbar/navbar.vue'
+import footerGlobal from './footer/footer.vue'
 export default {
     setup() {
     },
 
     components: {
         headerGlobal,
-        navbar
+        navbar,
+        footerGlobal
     }
 }
 

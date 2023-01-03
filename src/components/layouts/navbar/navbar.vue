@@ -1,5 +1,4 @@
 <template>
-  <div class="container">
         <nav>
             <div class="nav__logo">
             <img src="/public/images/logo_300x300.png" alt="logo">
@@ -41,7 +40,6 @@
             <i class="fa-solid fa-cart-shopping"></i>
         </div>
         </nav>
-    </div>
 </template>
 
 <script>

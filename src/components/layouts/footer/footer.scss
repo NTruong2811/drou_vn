@@ -1,0 +1,50 @@
+footer {
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    .list__footer {
+        display: flex;
+        justify-content: space-around;
+        text-align: left;
+        line-height: 30px;
+
+        .footer__contact {
+            width: 22%;
+        }
+
+        .footer__information {
+           width: 22%;
+        }
+        .footer__customer {
+            width: 22%;
+        }
+        .footer__download {
+            width: 22%;
+
+            .download__img {
+                display: flex;
+                justify-content: center;
+                overflow: hidden;
+                object-fit: cover;
+
+                img {
+                    background-color: #fff;
+                    border: 1px solid #ccc;
+                    width: 45%;
+                    margin-right: 10px;
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer__coppy-right {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 50px;
+    }
+}
+
