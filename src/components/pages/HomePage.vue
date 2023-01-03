@@ -89,7 +89,7 @@ export default {
     SliderComponent,
     Carousel,
     Slide,
-    Navigation,
+    Navigation,             
   },
   setup() {},
 };

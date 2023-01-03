@@ -2,9 +2,9 @@
   <div class="slider">
     <div
       class="item"
-      v-for="item in listSlide"
+      v-for="(item, index) in listSlide"
       :key="index"
-      v-bind:style="{ backgroundImage: 'url(/images/' + item.img + ')' }"
+      :style="{ backgroundImage: 'url(/images/' + item.img + ')' }"
     >
       <div class="content container">
         <h4 class="title">{{ item.title }}</h4>
@@ -92,7 +92,7 @@ export default {
       });
       slider[count].style.opacity = "1";
       count++;
-      if (count > slider.length - 1) {
+      if (count > slider.length - 1) {         
         count = 0;
       }
     }, 5000);
