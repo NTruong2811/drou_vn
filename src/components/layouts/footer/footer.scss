@@ -1,13 +1,12 @@
 footer {
     font-size: 13px;
-    padding: 0;
     margin: 0;
     .list__footer {
         display: flex;
         justify-content: space-around;
         text-align: left;
         line-height: 30px;
-
+        padding: 30px 0;
         .footer__contact {
             width: 22%;
         }
@@ -44,7 +43,14 @@ footer {
     .footer__coppy-right {
         display: flex;
         justify-content: space-between;
-        margin: 0 50px;
+        padding: 0 50px;
+        background-color: #ccc;
+        align-items: center;
+        height: 60px;
+
+        p {
+            margin: 0;
+        }
     }
 }
 

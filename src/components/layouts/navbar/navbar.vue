@@ -1,5 +1,5 @@
 <template>
-        <nav>
+        <nav :class="{'onScroll' : !topOfpage}" id="nav">
             <div class="nav__logo">
             <img src="/public/images/logo_300x300.png" alt="logo">
         </div>
@@ -43,14 +43,34 @@
 </template>
 
 <script>
+import { onMounted } from '@vue/runtime-core'
+
 
 import './navbar.scss'
 export default {
     setup() {
-        
+        // var topOfpage = true
+        // function handleScroll(){
+        //     if(window.pageYOffset > 0){
+        //         if(topOfpage) topOfpage = false
+        //     } 
+        //      else if(!topOfpage) {
+        //         topOfpage = true
+        //     }
+        // }
 
+        onMounted(() => {
+            window.addEventListener("scroll", () => {
+                const navbar = document.getElementById("nav").classList
+                if(window.scrollY > 0) {
+                    navbar.add("onScroll")
+                }else {
+                    navbar.remove("onScroll")
+                }
+            })
+        })
 
-        return {}
+        return {  }
     }
 
 
