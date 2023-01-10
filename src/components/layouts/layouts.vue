@@ -1,12 +1,8 @@
 <template>
-
     <header-global />
     <navbar />
-
     <!-- End header -->
- 
-    
-      <router-view></router-view>
+      <router-view />
       <footer-global />
 </template>
 <script>

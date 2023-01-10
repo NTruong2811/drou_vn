@@ -1,0 +1,104 @@
+.electronic__pages {
+    .container {
+        .list__slide-bar {
+            .product__top {
+                margin-top: 20px;
+
+                .item__product {
+                    background-color: #f8f8f8;
+                    width: 25%;
+
+                    h4 {
+                        padding-top: 20px;
+                        padding-left: 20px;
+                    }
+
+                    .items__top-product {
+                        display: flex;
+                        padding: 20px ;
+                        .img__top-product {
+                            width: 71px;
+                            height: 71px;
+                            margin-right: 20px;
+                        }
+                        .top__product-content {
+                            .list__stars {
+                                i {
+                                    color: yellowgreen;
+                                }
+                            }
+                            p {
+                                margin: 0;
+                            }
+                        }
+                    }
+
+                    .list__categories {
+
+                        ul {
+                            li {
+                                display: flex;
+                                justify-content: space-between;
+                                padding: 8px 20px;
+
+                            }
+                        }
+                    }
+
+                    .list__size {
+                        
+                        ul {
+                            display: flex;
+                            justify-content:flex-start;
+                            margin-left: 20px;
+                            flex-wrap: wrap;
+                            text-align: center;
+                            li {
+                                border: 1px solid #ccc;
+                                width: 70px;
+                                padding: 5px 10px;
+                                margin: 5px 5px 5px 0;
+                            }
+                        }
+                    }
+
+                    .list__tags {
+                        ul {
+                            display: flex;
+                            justify-content:flex-start;
+                            margin-left: 20px;
+                            flex-wrap: wrap;
+                            text-align: center;
+                            li {
+                                border: 1px solid #ccc;
+                                width: 70px;
+                                padding: 5px 5px;
+                                margin: 5px 5px 5px 0;
+                            }
+                        }
+                    }
+
+                    .list__colors {
+                        ul {
+                            display: flex;
+                            justify-content: flex-start;
+                            flex-wrap: wrap;
+                            margin-left: 10px;
+                            li {
+                                height: 30px;
+                                width: 30px;
+                                border-radius: 50%;
+                                border: 2px solid #ccc;
+                                margin: 10px 10px;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+
+                
+                
+            }
+        }
+    }
+}
