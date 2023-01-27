@@ -30,6 +30,8 @@ export default {
           var li = document.createElement("li");
           li.appendChild(document.createTextNode(arr[index]));
           breadcrumb.appendChild(li);
+          li.style.color = "#e52e06";
+          li.style.marginLeft = "10px";
         }
       }
     })
